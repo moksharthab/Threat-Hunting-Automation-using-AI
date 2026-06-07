@@ -1,5 +1,5 @@
 # Threat-Hunting-Automation-using-AI
-Threat Hunting Automation using AI
+
 Overview
 The objective is to leverage external threat intelligence, including security blogs and known threat actor profiles, to proactively hunt for potential compromises within our environment. This approach will focus on identifying Indicators of Compromise (IOCs) and adversary Tactics, Techniques, and Procedures (TTPs).
 
@@ -21,8 +21,6 @@ Threat Actor Name: We can enter the name of a known attack group (e.g., APT28, L
 
 System Structure and Flow
 The intelligence-based hunting will be run by a coordinated architecture involving "Cursor Skills" (for high-level management), specialized Subagents (for intelligence breakdown and analysis), and custom Python scripts on Cursor Cloud Agent.
-
-
 
 1. Cursor Skills
 These skills handle the overall management of the process:
