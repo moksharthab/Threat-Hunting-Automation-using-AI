@@ -136,11 +136,10 @@ You MUST produce **one PDF report** as the final deliverable. Do NOT produce Mar
 
 ### Report Structure
 
-The PDF report MUST follow this exact structure, matching the Wayfair Security Operations report format:
+The PDF report MUST follow this exact structure, matching the Security Operations report format:
 
 #### Title Page / Header
 
-- Wayfair logo (header image)
 - "Security Operations | IOC Investigation Report"
 - Report title (e.g., campaign name or threat actor)
 - Report Date
