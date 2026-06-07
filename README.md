@@ -11,14 +11,12 @@ The intelligence-based hunting will be run by a coordinated architecture involvi
 **Requirements**
 
 Required tools: Cursor
-Required Integrations: Slack, Google SecOps SIEM MCP, Google SecOps SOAR MCP, GTI MCP, Gmail MCP (to be added)
-How the Threat Hunting Process Works
-The system starts when we provide it with threat intelligence, either a security blog or the name of a specific Threat Actor.
+Required Integrations: Slack, Google SecOps SIEM MCP, Google SecOps SOAR MCP, GTI MCP, Email MCP
 
 **Input for the Hunt**
 
-Security Blogs/Articles: We'll feed it the links or content from security reports that describe new threats, vulnerabilities, or attack campaigns.
-Threat Actor Name: We can enter the name of a known attack group (e.g., APT28, Lazarus Group) to have the system search for their associated attack methods and indicators.
+**Security Blogs/Articles**: We'll feed it the links or content from security reports that describe new threats, vulnerabilities, or attack campaigns.
+**Threat Actor Collection Report/Name from GTI**: We can enter the name of a known attack group (e.g., APT28, Lazarus Group) to have the system search for their associated attack methods and indicators.
 (Note: To keep the results accurate and avoid false positives, we will limit the system to specific, trusted RSS feeds or user-provided inputs. The hunt can also be scheduled to run regularly.)
 
 **System Structure and Flow**
