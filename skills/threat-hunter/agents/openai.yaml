@@ -1,0 +1,4 @@
+interface:
+  display_name: "Threat Hunter"
+  short_description: "Turn intel into TTP-based Chronicle hunts"
+  default_prompt: "Use $threat-hunter to turn this report into ATT&CK mappings and one generic Chronicle hunt per extracted TTP, grouped by fidelity and best log source, with a concise defensive playbook."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "TTP IOC Hunter"
+  short_description: "ATT&CK-mapped Chronicle PDF reporting"
+  default_prompt: "Use $ttp-ioc-hunter to analyze a threat report, map ATT&CK behavior, draft grounded Chronicle detections, and produce the required PDF report."
