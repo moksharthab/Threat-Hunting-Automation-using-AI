@@ -146,9 +146,6 @@ Cross-reference returned alerts with the ATT&CK techniques from both skills.
 
 You MUST produce **two separate PDF reports**, one for each skill. Both reports must incorporate the live SIEM findings from Phase 2.
 
-Use the Wayfair logo as the header image for both PDFs. The logo is located at:
-`~/.cursor/agents/Screenshot 2026-04-11 at 3.09.24 PM.png`
-
 Save both reports to the user's Documents folder (`~/Documents/`).
 
 ---
@@ -249,7 +246,6 @@ This report corresponds to the **ttp-ioc-hunter** skill output. It must contain:
 For both reports:
 - First generate the full report content internally in Markdown with all tables and YARAL blocks.
 - Render to PDF using `scripts/render_report_pdf.py` if available, or fall back to `reportlab`, `pandoc`, or another installed Markdown-to-PDF workflow.
-- Use the Wayfair logo (`~/.cursor/agents/Screenshot 2026-04-11 at 3.09.24 PM.png`) as the header image on every page or the title page.
 - Do NOT create Markdown source files unless the user explicitly asks for them.
 - Save both PDFs to `~/Documents/`.
 
