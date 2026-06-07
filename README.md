@@ -24,6 +24,9 @@ Required Integrations: Slack, Google SecOps SIEM MCP, Google SecOps SOAR MCP, GT
 
 The intelligence-based hunting will be run by a coordinated architecture involving "Cursor Skills" (for high-level management), specialized Subagents (for intelligence breakdown and analysis), and custom Python scripts on Cursor Cloud Agent.
 
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/5cbc4cd0-6ee6-4d04-91de-1a921cc7a6f5" />
+
+
 ## Cursor Skills
 
 These skills handle the overall management of the process.
