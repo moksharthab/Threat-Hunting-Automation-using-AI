@@ -6,7 +6,7 @@ The objective is to leverage external threat intelligence, including security bl
 
 The goal is to transition from a reactive security posture to a proactive threat-hunting model capable of detecting potential or ongoing threats. This process will be automated through a purpose-built, multi-component system.
 
-The intelligence-based hunting will be run by a coordinated architecture involving "Cursor Skills" (for high-level management), specialized Subagents (for intelligence breakdown and analysis), and custom Python scripts on Cursor Cloud Agent.
+The intelligence-based hunting will be run by a coordinated architecture involving "Cursor Skills" (for high-level management), specialized Subagents (for intelligence breakdown and analysis).
 
 **Requirements**
 
